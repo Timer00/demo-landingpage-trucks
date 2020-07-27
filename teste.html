@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<script type="text/javascript" src="js/main.js"></script>-->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+    <title>ABC Brasil</title>
+</head>
+<body>
+<div id="container">
+    <div class="relative" style="width: 100%;height: 8%">
+    <a href="#">
+        <img class="allSpace" src="imagens/areaCliente.png">
+        <img style="position: absolute;max-height: 30%; max-width: 1%;min-width: 1%;left: 71%; top: 40%"
+             src="imagens/cadeadoAreaCliente.png">
+        <div style="position: absolute;left: 73.5%;top: 42%;color: white;font-size: 1.2vmax; font-family: Arial">Área do
+            Cliente
+        </div>
+    </a>
+    </div>
+    <div class="relative"
+         style="width: 100%;height: 30%; position: relative; float: left; z-index: 3;background-color: white"
+         id="header">
+        <div class="relative" style="width: 40%;height: 100%">
+            <a href="index.php"><img class="proportion relative" src="imagens/logoSimples.png"
+                                      style="max-height: 75%;max-width: 50%;min-height: 20%;min-width: 20%;top: 20%; left: 50%;"></a>
+        </div>
+        <div class="relative" style="width: 41%;height: 100%;color: darkgray;font-size: 0.8vmax">
+            <div style="text-align: right;width: 100%;height: 50%;"></div>
+            <div style="text-align: right;width: 100%;height: 8%;">
+                <a href="http://www.localizacarga.com.br" target="_blanck">
+                <img src="imagens/wifiSimbol.png" class="proportion"
+                     style="max-height: 100%;max-width: 100%;min-height: 70%;min-width: 2%"> Rastreie sua carga
+                </a>
+                &nbsp;
+                <a href="#">
+                <img src="imagens/documento.png" class="proportion"
+                     style="max-height: 100%;max-width: 100%;min-height: 70%;min-width: 1.5%"> Emissão 2º Via Boleto
+                </a>
+            </div>
+            <hr>
+            <div style="text-align: center;width: 100%;height: 42%">
+                <div class="menuButton relative" style="width: 20%; height: 100%; font-size: 1.7vmax"
+                     onclick="scrollToId('empresa')"><font color="#001B52">EMPRESA</font>
+                </div>
+                <div class="menuButton relative" style="width: 10%; height: 100%; font-size: 1.7vmax"
+                     onclick="scrollToId('frota')"><font color="#001B52">FROTA</font>
+                </div>
+                <div class="menuButton relative" style="width: 30%; height: 100%; font-size: 1.7vmax"
+                     onclick="scrollToId('transporte')"><font color="#001B52">TRANSPORTE</font>
+                </div>
+                <div class="menuButton relative" style="width: 20%; height: 100%; font-size: 1.7vmax"
+                     onclick="scrollToId('unidades')"><font color="#001B52">UNIDADES</font>
+                </div>
+                <div class="menuButton relative" style="width: 20%; height: 100%; font-size: 1.7vmax"
+                     onclick="scrollToId('contato')"><font color="#001B52">CONTATO</font>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider relative" style="width: 100%; height: auto">
+        <div class="slide"><img src="imagens/slider1.jpg" class="proportion relative"
+                                style="max-width: 100%;width: 100%;"></div>
+        <div class="slide"><img src="imagens/slider2.jpg" class="proportion relative"
+                                style="max-width: 100%;width: 100%;"></div>
+        <div class="slide"><img src="imagens/slider3.jpg" class="proportion relative"
+                                style="max-width: 100%;width: 100%;"></div>
+        <div class="horizontalCenter" style="position: absolute; width: 10%; height: 5%; top: 90%">
+            <div class="circle relative" onclick="slide(0)"></div>
+            <div class="circle relative" onclick="slide(1)"></div>
+            <div class="circle relative" onclick="slide(2)"></div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 98.8%;height: 110%;background-color: #e6e7e8" id="empresa">
+        <div class="relative" style="color: #001B52;font-weight: bold;font-size: 2vmax;width: 100%;height: 20%">
+            <div class="relative" style="left: 20%;top: 30%;width: 50%">
+                SOBRE A
+                <div style="background-color: #006633;width: 22%;color: white; text-align: center">ABC BRASIL</div>
+            </div>
+        </div>
+        <div class="center"
+             style="width: 50%;height: 70%;overflow:hidden;font-family: Arial;color: #006699;font-size: 0.9vmax; letter-spacing: 0.1vmax">
+            <div class="relative margin" style="width: 50%; height: 100%;">
+                Entregar confiança é o combustível que move a ABC Brasil Transportes, uma empresa que investe em
+                estrutura e logística para atender as necessidades dos seus clientes, oferecendo soluções completas em
+                transporte de cargas, sejam fracionadas ou dedicadas.
+                <br>
+                Com atenção máxima em proporcionar satisfação completa em pontualidade, cuidado e agilidade, a ABC
+                Brasil Transportes investe em frota própria para atuar em todos os segmentos, além de softwares de ponta
+                em controle de armazenagem, distribuição, lotação e rastreamento de coletas e entregas e equipe treinada
+                e qualificada no atendimento às pessoas e manuseio de cargas.
+                <br><br>
+                <div style="font-weight: bolder">Missão:</div>
+                Contribuir para o sucesso e crescimento de nossos clientes, desenvolvendo soluções logísticas inovadoras
+                e personalizadas, sempre superando expectativas e fazendo o melhor a seus clientes.
+            </div>
+            <div class="relative margin" style="width: 50%; height: 100%;">
+                <div style="font-weight: bolder">Comprometimento Ético:</div>
+                • Honrar os compromissos com ética;<br>
+                • Valorizar relacionamentos e culturas na cadeia logística;<br>
+                • Comprometimento, profissionalismo e excelência;<br>
+                • Atender aos detalhes e mudanças do mercado;<br>
+                • Sustentabilidade: econômica, ambiental e social;<br>
+                • Filosofia empresarial: simplicidade e eficiência;<br>
+                • As pessoas e nossos colaboradores são nosso maior ativo.<br><br>
+                <div style="font-weight: bolder">Padrões de Segurança/Monitoramento e Gerenciamento de Risco:</div>
+                Todas as operações são realizadas respeitando os mais altos padrões de segurança e gerenciamento de
+                risco, com frota 100% rastreada e monitorada com equipamentos de telemetria, que mantém a central
+                informada sobre como o motorista está conduzindo o caminhão e as formas de dirigibilidade conduta,
+                garantindo a integridade física das equipes, de todos no entorno e a integridade dos produtos
+                transportados. Profissionais especializados garantem a execução fiel e todas as exigências aos Planos de
+                Gerenciamento de Risco dos Clientes, minimizando adversidades e potencializando a confiança na empresa.
+            </div>
+        </div>
+        <div class="relative"
+             style="color: #001B52;font-weight: bold;font-size: 2vmax;width: 100%;height: 20%;top: 60%;left: -10%">
+            <div class="relative" style="left: 30%;top: 30%;width: 50%">
+                <img src="imagens/peneu.png" id="frota" class="proportion"
+                     style="max-height: 5%;max-width: 5%;min-height: 5%;min-width: 5%;">FROTA
+            </div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 100%;height: 50%;">
+        <img src="imagens/3rd.png" style="width: 100%;height: 100%">
+        <div class="center"
+             style="width: 50%;height: 50%;overflow:hidden;font-family: Arial;letter-spacing: 0.1vmax;color: white;font-size: 0.9vmax;margin: 0;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -70%)">
+            <div class="relative margin" style="width: 50%; height: 100%;">
+                Investimento constante em qualidade e segurança são parte constante do planejamento e expansão da ABC
+                Brasil Transportes. Com frota própria, composta por veículos pesados e leves, a empresa atua em todos os
+                segmentos do transporte, oferecendo capacidade de carga quando necessário e maior agilidade quando
+                solicitado, resolvendo todas as necessidades de seus clientes.
+            </div>
+            <div class="relative margin" style="width: 50%; height: 100%;">
+                Toda a frota da ABC Brasil Transportes conta com equipamentos de telemetria e rastreamento, garantindo o
+                monitoramento por parte da empresa e dos clientes, garantindo a segurança e tranquilidade para todas as
+                partes envolvidas.
+            </div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 100%;height: 10%">
+        <img src="imagens/caminhoes.png"
+             style="left: 15%;top: -80%;max-height: 300%;max-width: 300%;min-width: 40%;position: relative">
+    </div>
+    <div class="relative" style="width: 100%; height: 10%"></div>
+
+    <div class="relative" style="width: 100%;height: 70%" id="transporte">
+        <div class="center" style="width: 60%; height: 90%">
+            <div class="relative"
+                 style="color: deepskyblue;font-size: 1vmax;white-space:revert; width: 100%; height: 20%;">
+                <img src="imagens/box.png" style="max-height: 50%;max-width: 50%;min-height: 50%;min-width: 5%">&nbsp;
+                <div style="color: #001B52;font-size: 2vmax;display: inline">TRANSPORTE</div>
+                <br>
+                CONHEÇA OS TIPOS DE TRANSPORTES QUE A ABC BRASIL OFERECE.
+            </div>
+            <div class="relative border margin" style="width: 50%;height: 60%;text-align: center">
+                <div class="relative center" style="width: 80%;color: gray;">
+                    <img src="imagens/halfTruck.png"
+                         style="max-height: 20%;max-width: 20%;min-height: 50%;min-width: 20%">
+                    <div style="color: #001b52;font-size: 1.5vmax;">CARGA FRACIONADA</div>
+                    <div style="color: green; font-size: 1vmax">PARA TODAS AS PRAÇAS</div>
+                    <div style="font-family: Arial;letter-spacing: 0.1vmax">
+                        Empresas que necessitam de transporte para as praças que já fazem parte dos itinerários da ABC
+                        Brasil Transportes podem escolher por esta modalidade, contando com serviço de coleta e entrega
+                        para encomendas fracionadas destinadas a pessoas físicas e jurídicas.
+                    </div>
+                </div>
+            </div>
+            <div class="relative border margin" style="width: 50%;height: 60%;text-align: center">
+                <div class="relative center" style="width: 80%;color: gray;">
+                    <img src="imagens/fullTruck.png"
+                         style="max-height: 20%;max-width: 20%;min-height: 50%;min-width: 20%">
+                    <div style="color: #001b52;font-size: 1.5vmax;">CARGA DEDICADA</div>
+                    <div style="color: green; font-size: 1vmax">PARA TODO O BRASIL</div>
+                    <div style="font-family: Arial;letter-spacing: 0.1vmax">
+                        Empresas que precisam de transporte com grandes volumes, somando agilidade e exclusividade,
+                        podem optar pela contratação de transporte de carga dedicada. A ABC Brasil Transportes oferece
+                        total atenção para transportar as necessidades de um único embarcador para um único destino, em
+                        todo Brasil.
+                    </div>
+                </div>
+            </div>
+            <div class="relative" style="width: 100%;height: 10%">
+                Faça o download da Relação de Praças 2017 &nbsp;
+                &nbsp;&nbsp;&nbsp;
+               <a href="download_pro.php">
+               <img src="imagens/pdf.png"
+                     style="margin: 0;position: absolute;top: 50%;transform: translate(0, -60%);max-height: 70%;max-width: 70%;min-height: 10%;min-width: 3%">
+               </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 100%;height: 60%" id="unidades">
+        <div class="center" style="width: 50%; height: 80%">
+            <div class="relative" style="color: #001B52; font-size: 2vmax;width: 100%;height: 20%"><img
+                    src="imagens/ponto.png" style="max-height: 60%;max-width: 60%;min-height: 10%;min-width: 3%">UNIDADES
+                <div style="font-size: 0.8vmax; color: gray">Escolha a unidade mais próxima a você. Os profissionais da
+                    ABC Brasil Transportes estão sempre à disposição.
+                </div>
+                <hr>
+            </div>
+            <div class="relative center" style="width: 80%;height: 80%">
+                <div class="relative" style="width: 100%;height: 30%">
+                    <div class="relative"
+                         style="color: #001B52; font-size: 1.5vmax;width: 30%;height: 100%;text-align: right">RIBEIRÃO
+                        PRETO
+                    </div>
+                    <div class="relative" style="width: 5%;height: 100%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">R. Dr.
+                        Hugo Fortes, 1.686
+
+                        Prq. Industrial Lagoinha
+
+                        Cep: 14095-260 <br>
+                        
+                        Ribeirão Preto SP
+                    </div>
+                    <div class="relative" style="border-left: 0.1vmax solid gray;height: 40%;width: 1%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">
+                        comercial@abcbrasiltransportes.com.br
+                        <br>
+                        (16) 3617-1804 | 3965-6410
+                    </div>
+                </div>
+                <div class="relative" style="width: 100%;height: 33.3%">
+                    <div class="relative"
+                         style="color: #001B52; font-size: 1.5vmax;width: 30%;height: 100%;text-align: right">São Paulo
+                    </div>
+                    <div class="relative" style="width: 5%;height: 100%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">
+                        R. Aulivieri Bozzato, 1427
+
+                        Coral Lot. Industrial <br>
+
+                        Cep: 09372-010 <br> 
+                        
+                        Mauá SP
+                    </div>
+                    <div class="relative" style="border-left: 0.1vmax solid gray;height: 33.3%;width: 1%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">
+                        comercialsp@abcbrasiltransportes.com.br
+                        <br>
+                        (11) 4543-6183 | 4543-6428
+                    </div>
+                </div>
+                <div class="relative" style="width: 100%;height: 33.3%">
+                    <div class="relative" style="width: 30%;height: 100%;text-align: right">
+                        <div style="color: #001B52; font-size: 1.5vmax">MATÃO</div>
+                        <div style="color: green; font-size: 0.8vmax">Ponto de apoio</div>
+                    </div>
+                    <div class="relative" style="width: 5%;height: 100%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">
+                        R. Guido Cardim, 1669
+
+                        Bairro Cardim VI <br>
+
+                        Cep: 15997-114 <br>
+                        
+                        Matão SP
+                    </div>
+                    <div class="relative" style="border-left: 0.1vmax solid gray;height: 40%;width: 1%"></div>
+                    <div class="relative"
+                         style="width: 30%;height: 100%;font-family: Arial;font-weight: bold;color: hsla(269,79%,34%,1.00)">
+						comercialmto@abcbrasiltransportes.com.br
+                        <br>                         
+                        (16) 3382-2749
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 100%; height: 60%;" id="contato">
+        <img src="imagens/grasslands.jpeg" style="position: absolute;height: 100%;width: 100%">
+        <div class="center" style="width: 60%;height: 80%; z-index: 1">
+            <div class="relative" style="width: 100%; height: 20%">
+                <div class="relative"
+                     style=" width: 90%; height: 100%; color: lawngreen; font-size: 1vmax; font-family: Estandar-Regular; letter-spacing: 0.1vmax">
+                    <div style="color: white; font-size: 1.8vmax;font-family: IntroCondensed">CONTATO</div>
+                    Seu contato é muito importante, por isso a ABC Brasil Transportes coloca à sua disposição uma equipe
+                    preparada para atender possíveis dúvidas e necessidades. Será um prazer atender você.
+                </div>
+            </div>
+            <div class="relative" style="width: 80%;height: 60%">
+                <div class="relative" style="width: 40%;height: 90%"></div>
+                <div class="relative" style="width: 60%; height: 90%">
+                    <form style="width: 100%; height: 100%" method="post">
+                    <input type="hidden" name="salvar" value="salvar"> 
+                        <div class="relative" style="width: 100%;height: 20%; border: 0.2vw solid transparent;"><img
+                                src="imagens/contato.png"
+                                style="width: 4%;max-height: 40%">&nbsp;&nbsp;<input
+                                placeholder="Nome"
+                                style="height: 100%;width: 93%;border: solid 0.1vmax deepskyblue; background-color: dodgerblue; color: white; font-size: 0.8vmax; letter-spacing: 0.1vmax">
+                        </div>
+                        <div class="relative" style="width: 100%;height: 20%; border: 0.2vw solid transparent;"><img
+                                src="imagens/email.png"
+                                style="width: 4%;max-height: 40%">&nbsp;&nbsp;<input
+                                placeholder="E-mail"
+                                style="height: 100%;width: 93%;border: solid 0.1vmax deepskyblue; background-color: dodgerblue; color: white; font-size: 0.8vmax; letter-spacing: 0.1vmax">
+                        </div>
+                        <div class="relative" style="width: 100%;height: 20%; border: 0.2vw solid transparent;"><img
+                                src="imagens/chat.png"
+                                style="width: 4%;max-height: 40%">&nbsp;&nbsp;<input
+                                placeholder="Assunto"
+                                style="height: 100%;width: 93%;border: solid 0.1vmax deepskyblue; background-color: dodgerblue; color: white; font-size: 0.8vmax; letter-spacing: 0.1vmax">
+                        </div>
+                        <div class="relative"
+                             style="width: 98.2%;height: 40%;text-align: right;; border: 0.2vw solid transparent;">
+                            <textarea
+                                placeholder="Mensagem"
+                                style="width: 94.7%;height: 100%;border: solid 0.1vmax deepskyblue; background-color: dodgerblue; font-size: 0.8vmax;color: white; letter-spacing: 0.1vmax">
+                            </textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="relative"
+                     style="position: relative;float: right;width: 18%;height: 18%; border: 0.2vmax solid transparent;">
+                    <button style="background-color: deepskyblue;color: white;width: 100%;height: 90%;font-size: 0.8vmax">
+                        ENVIAR
+                    </button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative" style="width: 100%; height: 70%;background-color: #001b52; top: -20%;z-index: 0" id="last">
+        <div class="center" style="width: 60%; height: 70%">
+            <div class="relative" style="width: 100%; height: 30%"></div>
+            <div class="relative" style="width: 50%; height: 70%;">
+                <div class="relative"
+                     style="color: white; font-family: Arial;width: 100%; height: 5%; font-size: 0.8vmax">
+                    <div style="display: inline; cursor: pointer" onclick="scrollToId('empresa')">Empresa</div>
+                    <div style="border-left: 0.1vmax solid gray;margin: 3%;height: 100%;width: 1%; display: inline;"></div>
+                    <div style="display: inline; cursor: pointer" onclick="scrollToId('frota')">Frota</div>
+                    <div style="border-left: 0.1vmax solid gray;margin: 3%;height: 100%;width: 1%; display: inline;"></div>
+                    <div style="display: inline; cursor: pointer" onclick="scrollToId('transporte')">Transporte</div>
+                    <div style="border-left: 0.1vmax solid gray;margin: 3%;height: 100%;width: 1%; display: inline;"></div>
+                    <div style="display: inline; cursor: pointer" onclick="scrollToId('unidades')">Unidades</div>
+                    <div style="border-left: 0.1vmax solid gray;margin: 3%;height: 100%;width: 1%; display: inline;"></div>
+                    <div style="display: inline; cursor: pointer" onclick="scrollToId('contato')">Contato</div>
+                </div>
+                <div class="relative" style="width: 100%; height: 10%"></div>
+                <div class="relative" style="width: 40%; height: 85%">
+                    <img src="imagens/abc.png" style="width: 70%;max-height: 40%">
+                </div>
+                <div class="relative" style="width: 60%; height: 23%;"></div>
+                <div class="relative"
+                     style="width: 60%; height: 5%; font-size: 0.7vmax;color: white;font-family: Arial">&nbsp;&nbsp;©
+                    2017 Todos os direitos reservados.
+                </div>
+            </div>
+            <div class="relative" style="width: 50%; height: 70%;">
+                <div style="text-align: right;width: 100%;height: 8%;color: #99cc66; font-family: Arial">
+                <a href="http://www.localizacarga.com.br" target="_blanck">
+                    <img src="imagens/wifiV.png" class="proportion"
+                         style="max-height: 70%;max-width: 70%;min-height: 40%;min-width: 2%"> Rastreie sua carga</a>
+                    &nbsp;
+               <a href="#">
+                    <img src="imagens/documentoV.png" class="proportion"
+                         style="max-height: 70%;max-width: 70%;min-height: 40%;min-width: 1.5%"> Emissão 2º Via Boleto
+               </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var submit = false;
+	$("form").submit(function () {
+    	return submit;
+    });
+</script>
+<script>
+    window.mobilecheck = function () {
+        var check = false;
+        (function (a) {
+            if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+        })(navigator.userAgent || navigator.vendor || window.opera);
+        return check;
+    };
+    var mobile = mobilecheck();
+
+    var menuButtons = document.getElementsByClassName('menuButton');
+    if (mobile) {
+        for (var i of menuButtons) {
+            i.style.fontSize = "100%";
+        }
+    }
+
+    window.addEventListener('scroll', function (event) {
+        var header = document.getElementById('header');
+        var rect = header.getBoundingClientRect();
+        if (window.scrollY > rect.top) {
+            if (mobile) {
+                if (window.scrollY < 400 && window.scrollY > 100) {
+                    header.style.width = "100%";
+                    header.style.height = (30 / window.scrollY) * 100 + "%";
+                    header.style.position = "fixed";
+                    header.style.zIndex = "3";
+                    header.style.backgroundColor = "white";
+                }
+            } else {
+                if (window.scrollY < 200 && window.scrollY > 100) {
+                    header.style.width = "100%";
+                    header.style.height = (30 / window.scrollY) * 100 + "%";
+                    header.style.position = "fixed";
+                    header.style.zIndex = "3";
+                    header.style.backgroundColor = "white";
+                }
+            }
+        }
+        if (window.scrollY < 50) {
+            header.style.width = "100%";
+            header.style.height = "30%";
+            header.style.position = "relative";
+            header.style.float = "left";
+            header.style.zIndex = "3";
+            header.style.backgroundColor = "white";
+        }
+        console.log(window.scrollY);
+    });
+
+    var slides = document.getElementsByClassName('slider')[0].getElementsByClassName('slide');
+    var counter = 0;
+
+    var buttons = document.getElementsByClassName('slider')[0].getElementsByClassName('horizontalCenter')[0].getElementsByTagName('div');
+
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+
+    }
+    buttons[counter].style.border = "0.5vw solid gray";
+    slides[counter].style.display = "block";
+    counter++;
+    if (counter == slides.length) {
+        counter = 0;
+    }
+
+    setInterval(function () {
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            buttons[i].style.border = "0.5vw solid white";
+        }
+        slides[counter].style.display = "block";
+        buttons[counter].style.border = "0.5vw solid gray";
+        counter++;
+        if (counter == slides.length) {
+            counter = 0;
+        }
+    }, 5000);
+
+    scrollToId = function (id) {
+        window.location.href = "#" + id;
+    };
+    slide = function (number) {
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            buttons[i].style.border = "0.5vw solid white";
+        }
+        slides[number].style.display = "block";
+        buttons[number].style.border = "0.5vw solid gray";
+    }
+</script>
+</body>
+</html>

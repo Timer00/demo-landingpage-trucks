@@ -1,0 +1,138 @@
+* {box-sizing: border-box;}
+@font-face { font-family: IntroCondensed; src: url('intro-cond.black-free.otf'); }
+@font-face { font-family: Estandar-Regular; src: url('Estandar-Regular.ttf'); }
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: IntroCondensed;
+    font-size: 0.9vmax;
+}
+button {
+    border: none;
+    background-color: gray;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+    color: white;
+}
+input::-webkit-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+input:-ms-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+input:-ms-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+
+textarea::-moz-placeholder {
+    opacity: 1;
+    color: white;
+}
+textarea::-webkit-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+textarea:-ms-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+textarea:-ms-input-placeholder {
+    opacity: 1;
+    color: white;
+}
+
+.margin {
+    border: 1vw solid transparent;
+}
+.border {
+    box-shadow: inset 0 0 0 0.1vw lawngreen;
+}
+.circle {
+    border-radius: 50%;
+    width: 5%;
+    height: 33%;
+    border: 0.5vw solid white;
+    cursor: pointer;
+    margin: 2%;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+.verticalCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+.horizontalCenter {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+.proportion {
+    object-fit: cover;
+}
+.relative {
+    position: relative;
+    float: left;
+}
+.allSpace {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.menuButton {
+    color: #001b52;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menuButton:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.box {
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 77%;
+    z-index: 3;
+}
+.title {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+.form {
+    width: 100%;
+    height: 67%;
+    position: relative;
+    float: left;
+    text-align: left;
+    background-color: white;
+    display: none;
+}
+
